@@ -23,7 +23,7 @@ int main()
 	printf("enter the customer_name:");
 	scanf("%s",customer_name);
 	
-	if(units<200){ 
+	   if(units<200){ 
 		charges=1.20;
 		bills=charges*units;
 		printf("\nthe bills is:%.2f",bills);
@@ -73,4 +73,4 @@ int main()
 	
 	
 	return 0;
-}
+ }
